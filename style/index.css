@@ -1,0 +1,51 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body { 
+    display: flex;
+    height: 100vh;
+    flex-flow: column;
+    font-size: 16px;
+} 
+.header {
+    outline: 1px solid greenyellow;
+    height: 3rem;
+    flex: 1 1 auto;
+}
+.container {
+    display: flex;
+    height: inherit;
+   
+}
+.content {
+    outline: 1px solid chocolate;
+    flex: 1 1 auto;
+
+} 
+.aside {
+    outline: 1px solid purple;
+    flex: 0 0 25%;
+}
+.footer {
+    outline: 1px solid red;
+    height: 6rem;
+    margin-top: auto;
+
+}
+.Menu {
+    display: flex;
+}
+.Menu-item {
+    list-style: none;
+    flex: 1;
+    outline: 1px solid red;
+    line-height: 3rem;
+    text-align: center;
+    transition: flex .5s;
+}
+.Menu-item:hover {
+    flex: 8;
+}
